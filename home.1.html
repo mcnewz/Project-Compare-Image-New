@@ -1,0 +1,108 @@
+<html>
+
+<head>
+    <title></title>
+</head>
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="asset/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="asset/css/style.css">
+
+<!-- font awesome -->
+<link rel="stylesheet" href="asset/font/font-awesome-4.7.0/css/font-awesome.min.css">
+<!-- FancyBox -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+
+<body class="bg-default" style="background-color:#FFC107;">
+    <!-- E:\DevProjs\JavaScript\Project_CompareImage\icon\bay.jpg -->
+
+
+    <div class="container-fluid">
+        <div class="fixed-top " align="center">
+
+            <ul class="nav nav-pills nav-fill ">
+                <li class="nav-item">
+                    <button onclick="beforeType()" class="btn btn-danger" tabindex="0" id="helloL" role="button" data-toggle="popover">
+                    <i class="fa fa-arrow-left" aria-hidden="true"></i> Type
+                </button>
+
+                    <!-- <button onclick="beforeType()" class="btn btn-danger"><i class="fa fa-arrow-left" aria-hidden="true"></i> Type</button> -->
+                    <button onclick="nextType()" class="btn btn-danger" tabindex="0" id="helloR" role="button" data-toggle="popover">
+                        Type <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    </button>
+
+                </li>
+                <li class="nav-item">
+                    <h1 class="text-primary" id="numType">001</h1>
+                    <!-- <img class="" src="icon/bay.jpg" alt=""> -->
+                </li>
+                <li class="nav-item">
+                    <button onclick="myFunctionLeft()" class="btn btn-primary" tabindex="0" id="imageL" role="button" data-toggle="popover">
+                        <i class="fa fa-arrow-left" aria-hidden="true"></i> Left</button>
+                    <button onclick="myFunctionRight()" class="btn btn-warning" tabindex="0" id="imageR" role="button" data-toggle="popover">
+                        Right <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="col">
+            <br>
+            <br>
+            <hr class="mb-3">
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <figure class="figure">
+                    <figcaption id="figure[0]" class="figure-caption alert alert-success">Image Sal</figcaption>
+
+                    <a data-fancybox="gallery" data-fancybox id="fancy[0]" href="">
+                        <img id="myImage[0]" class="zoomR image-size figure-img img-fluid rounded" src="" />
+                    </a>
+                </figure>
+            </div>
+            <div class="col-md-6">
+                <figure class="figure">
+                    <figcaption id="figure[1]" class="figure-caption alert alert-success"> Image Old</figcaption>
+
+                    <a data-fancybox="gallery" id="fancy[1]" href="">
+                        <img id="myImage[1]" class="zoomR image-size figure-img img-fluid rounded" src="" />
+                    </a>
+                </figure>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <br><br>
+
+    <!-- JQuery -->
+    <script src="asset/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap 4 -->
+    <script src="http://www.atlasestateagents.co.uk/javascript/tether.min.js"></script>
+    <script src="asset/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- FancyBox -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+
+
+    <!-- encrypt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+    <script>
+
+    </script>
+
+    <!-- app -->
+    <script src="asset/js/app.js"></script>
+    <script src="asset/js/fancybox.js"></script>
+
+
+</body>
+
+</html>
