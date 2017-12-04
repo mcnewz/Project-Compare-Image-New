@@ -224,10 +224,6 @@ function imageFound() {
 
 function imageNotFound() {
     // alert('That image was not found.');
-
-
-
     selImage('https://cdn.browshot.com/static/images/not-found.png')
     oldImage('https://cdn.browshot.com/static/images/not-found.png')
-
 }
